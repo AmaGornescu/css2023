@@ -1,0 +1,33 @@
+*{
+    padding: 15px;
+}
+body{
+   width: 100%;
+    max-width: 100px;
+    margin: auto;
+}
+div{
+    border: solid 15px pink;
+    margin: 15px auto;
+}
+
+div p{
+    
+}
+body > div > div > div{
+    background-color: aqua;
+}
+
+body > div > div{
+    background-color: aquamarine;
+}
+body > div{
+    background-color: blueviolet;
+}
+
+p + div{
+    color: red;
+}
+div div div p{
+    color: #0c7c07;
+}

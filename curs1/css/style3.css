@@ -1,0 +1,30 @@
+div, section{
+    margin:20px;
+    padding: 15px;
+    border: 2px solid red;
+}
+/* Cand pun > inseamna doar pt copiii directi */
+section p{
+    font-style: italic;
+}
+
+section > article > p{
+    font-weight: bold;
+}
+
+section > article p{
+    font-weight: bold;
+}
+
+/* Pentru toate p din div aplica culoarea rosie */
+div p{
+    color: red;
+}
+/* + imi ia Primul p de dupa o sectiune coloreaza maro */
+section + p{
+color:brown;
+}
+/* ~ imi ia toate paragrafele dupa section */
+section ~ p{
+    color: brown;
+}
